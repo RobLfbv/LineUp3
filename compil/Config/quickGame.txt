@@ -1,0 +1,11 @@
+Layers 4
+Shape SQUARE
+timeBlocked 2
+nbPlayers 1
+nbAI 3
+==========================================
+Layers => Number of layer (max nbPlayers+nbAI-1)
+Shape => Shape of the board
+timeBlocked => For how long (in rounds) should the links remain blocked
+nbPlayers => number of players
+nbAI => number of AI

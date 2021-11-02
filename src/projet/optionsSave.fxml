@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projet.MonControllerOption">
+   <children>
+      <VBox alignment="TOP_CENTER" prefHeight="43.0" prefWidth="500.0">
+         <children>
+            <HBox prefHeight="43.0" prefWidth="477.0">
+               <children>
+                  <Button fx:id="home" alignment="TOP_LEFT" mnemonicParsing="false" onAction="#screenHome" prefHeight="25.0" prefWidth="62.0" text="Acceuil">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </Button>
+                  <HBox prefHeight="43.0" prefWidth="362.0">
+                     <opaqueInsets>
+                        <Insets left="40.0" />
+                     </opaqueInsets>
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="RIGHT" prefHeight="17.0" prefWidth="226.0" text="Options Par défaut">
+                           <padding>
+                              <Insets left="50.0" />
+                           </padding>
+                           <HBox.margin>
+                              <Insets left="50.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                  </HBox>
+               </children>
+               <opaqueInsets>
+                  <Insets right="30.0" />
+               </opaqueInsets>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</VBox>

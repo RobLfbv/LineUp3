@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="TOP_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projet.ControllerLoadGame">
+   <children>
+      <HBox prefHeight="43.0" prefWidth="477.0" VBox.vgrow="ALWAYS">
+         <children>
+            <Button fx:id="myButtonMenu" alignment="TOP_LEFT" mnemonicParsing="false" onAction="#screenHome" text="Acceuil">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <HBox prefHeight="30.0" prefWidth="441.0">
+               <opaqueInsets>
+                  <Insets left="40.0" />
+               </opaqueInsets>
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="387.0" text="Load Game">
+                     <padding>
+                        <Insets left="50.0" />
+                     </padding>
+                     <HBox.margin>
+                        <Insets left="50.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+         <opaqueInsets>
+            <Insets right="30.0" />
+         </opaqueInsets>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+      </HBox>
+      <HBox fx:id="hbListView" alignment="CENTER" prefHeight="313.0" prefWidth="640.0" VBox.vgrow="ALWAYS" />
+      <Button fx:id="validate" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#validateChoice" prefHeight="49.0" prefWidth="404.0" text="OK" VBox.vgrow="ALWAYS" />
+   </children>
+   <cursor>
+      <Cursor fx:constant="DEFAULT" />
+   </cursor>
+</VBox>
